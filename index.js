@@ -6,3 +6,4 @@ function abc(a,b)
 }
 let z=abc(10,20);
 console.log(z);
+console.log(this)
