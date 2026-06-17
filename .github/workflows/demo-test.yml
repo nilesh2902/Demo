@@ -1,0 +1,12 @@
+name: Demo 
+
+on:
+  push:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Message
+        run: echo "Hello Demo app"
